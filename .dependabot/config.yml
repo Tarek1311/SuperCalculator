@@ -1,10 +1,10 @@
 version: 2
 updates:
-  - package-ecosystem: "docker"
+  - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "daily"
-  - package-ecosystem: "golang"
-    directory: "/"
-    schedule:
-      interval: "daily"
+    ignore:
+      - dependency-name: "github.com/myusername/myrepo"
+    labels:
+      - "dependencies"
