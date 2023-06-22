@@ -1,4 +1,4 @@
-version: 2
+/*version: 2
 updates:
   - package-ecosystem: "gomod"
     directory: "/"
@@ -7,4 +7,4 @@ updates:
     ignore:
       - dependency-name: "github.com/myusername/myrepo"
     labels:
-      - "dependencies"
+      - "dependencies"*/
